@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Product>MareInstaller</Product>
+		<Version>1.0.0</Version>
+		<Description>An automated installer for Mare Synchronos and its dependencies</Description>
+		<Copyright>Copyleft VariableVixen 2023</Copyright>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7-windows</TargetFramework>
+	</PropertyGroup>
+
+	<Import Project="framework.props" />
+
+	<ItemGroup>
+	  <Reference Include="LibRTFM">
+	    <HintPath>..\lib\LibRTFM.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
